@@ -1,0 +1,13 @@
+[project]
+name = "gpu-verbum-training"
+version = "0.0.0"
+description = "Training and evaluation for gpu-verbum: a tiny Russian part-of-speech model distilled from OpenCorpora."
+requires-python = ">=3.12"
+dependencies = [
+    "pymorphy3>=2.0",
+    "pymorphy3-dicts-ru>=2.4",
+    "torch>=2.8",
+]
+
+[tool.uv]
+package = false

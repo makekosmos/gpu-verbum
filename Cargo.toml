@@ -1,0 +1,24 @@
+[package]
+name = "gpu-verbum"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+description = "Tiny learned Russian part-of-speech tagger distilled from OpenCorpora"
+license = "MIT AND CC-BY-SA-4.0"
+keywords = ["russian", "nlp", "part-of-speech", "morphology"]
+categories = ["text-processing"]
+include = ["src/**", "models/*.vrb", "README.md", "MODEL_CARD.md", "LICENSE", "NOTICE.md"]
+
+[lib]
+name = "verbum"
+
+[features]
+default = ["small"]
+# Embeds models/small.vrb (~40 KB).
+small = []
+# Embeds models/big.vrb (~150 KB).
+big = []
+
+[[example]]
+name = "parity"
+required-features = ["small", "big"]

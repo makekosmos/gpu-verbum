@@ -1,0 +1,7 @@
+/target
+/training/.venv
+/training/data
+/training/runs
+/training/parity
+/training/*.log
+__pycache__/

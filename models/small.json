@@ -1,0 +1,63 @@
+{
+  "size": "small",
+  "parameters": 39570,
+  "bytes": 40482,
+  "trained": {
+    "train_on": "all",
+    "epochs": 6,
+    "seed": 0,
+    "seconds": 276
+  },
+  "float": {
+    "test": {
+      "words": 301341,
+      "strict": 97.61267135902516,
+      "lenient": 97.68036875167999,
+      "action_precision": 98.1492537313433,
+      "action_recall": 97.27810650887574,
+      "action_f1": 97.71173848439823
+    },
+    "test_freq": {
+      "words": 4208,
+      "strict": 99.86241960907151,
+      "lenient": 99.90586360953647,
+      "action_precision": 99.87844822752116,
+      "action_recall": 99.7176043628891,
+      "action_f1": 99.79796148743851
+    },
+    "live_freq": {
+      "words": 43742,
+      "strict": 99.4259792179004,
+      "lenient": 99.63078411262167,
+      "action_precision": 99.84852066839643,
+      "action_recall": 99.85441624631073,
+      "action_f1": 99.85146837032973
+    }
+  },
+  "int8": {
+    "test": {
+      "words": 301341,
+      "strict": 97.53900066701843,
+      "lenient": 97.6103484092772,
+      "action_precision": 97.78612373986954,
+      "action_recall": 97.57396449704142,
+      "action_f1": 97.67992891697106
+    },
+    "test_freq": {
+      "words": 4208,
+      "strict": 99.86613978707872,
+      "lenient": 99.90313636160236,
+      "action_precision": 99.83884256665459,
+      "action_recall": 99.7658503813576,
+      "action_f1": 99.80233312797941
+    },
+    "live_freq": {
+      "words": 43742,
+      "strict": 99.42265327504397,
+      "lenient": 99.6283334941597,
+      "action_precision": 99.75541626242546,
+      "action_recall": 99.87822992942324,
+      "action_f1": 99.81678531873325
+    }
+  }
+}
