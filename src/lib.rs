@@ -22,6 +22,10 @@ mod pos;
 pub use format::LoadError;
 pub use pos::Pos;
 
+#[cfg(doctest)]
+#[doc = include_str!("../README.md")]
+struct ReadmeDoctests;
+
 use format::{Conv, Dense, Weights};
 
 /// A loaded model. Inference is allocation-light and takes microseconds.

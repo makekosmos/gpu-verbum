@@ -5,6 +5,7 @@ edition = "2021"
 rust-version = "1.80"
 description = "Tiny learned Russian part-of-speech tagger distilled from OpenCorpora"
 license = "MIT AND CC-BY-SA-4.0"
+repository = "https://github.com/makekosmos/gpu-verbum"
 keywords = ["russian", "nlp", "part-of-speech", "morphology"]
 categories = ["text-processing"]
 include = ["src/**", "models/*.vrb", "README.md", "MODEL_CARD.md", "LICENSE", "NOTICE.md"]
